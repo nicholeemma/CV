@@ -1,0 +1,355 @@
+
+@font-face{
+	font-family:brotherhood_scriptregular;
+	src: url('../fonts/brotherhood_script-webfont.eot');
+    src: url('../fonts/brotherhood_script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brotherhood_script-webfont.woff') format('woff'),
+		 url('../fonts/brotherhood_script-webfont.ttf') format('truetype'),
+		 url('../fonts/brotherhood_script-webfont.svg#brotherhood_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+	font-family:'hotsweatregular';
+	src: url('../fonts/hotsweat-webfont.eot');
+    src: url('../fonts/hotsweat-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hotsweat-webfont.woff') format('woff'),
+		 url('../fonts/hotsweat-webfont.ttf') format('truetype'),
+		 url('../fonts/hotsweat-webfont.svg#hotsweatregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+
+{
+	word-wrap:break-word;
+background:#eee;
+background-image:linear-gradient(45deg,#bbb 50%,transparent 0),
+linear-gradient(45deg,transparent 0,#bbb 50%);
+background-position: 0 0,15px 15px;
+background-size: 30px 30px;
+/*background:repeating-linear-gradient(45deg,
+	#DCDCDC, #D3D3D3 30px);*/
+font-family:Verdana,Geneva,sans-serif;
+/*可以把多个字体名称作为一个“回退”系统来保存。如果浏览器不支持第一个字体，则会尝试下一个。也就是说，属性的值是用于某个元素的字体族名称或/及类族名称的一个优先表。浏览器会使用它可识别的第一个值。*/
+/*在标签的地方不能注释*/
+}
+#page{
+	background-color: white;
+  width: 1000px;
+  padding: 25px;
+      margin: 60px auto 60px auto;
+      border-radius: 30px 0 30px 30px ;
+      box-shadow: 1px 5px 20px #bbbbbb;
+      background: linear-gradient(to left bottom,
+      	transparent 50%,rgba(0,0,0,.4))
+      no-repeat 100% 0/4em 4em,
+      linear-gradient(-135deg,transparent 2.8em,white 0);
+}
+#masthead/*profile style*/
+{
+font-size:1.7em;
+font-family:Impact,Charcoal;
+padding:0;/*这个简写属性设置元素所有内边距的宽度，或者设置各边上内边距的宽度。*/
+margin-top:-.4em;
+
+}
+
+#hhh{font-family:'hotsweatregular'!important;
+	font-variant-ligatures: common-ligatures;/*字母连写*/
+	text-shadow:0 1px hsl(0,0%,85%),
+            0 2px hsl(0,0%,75%),
+            0 3px hsl(0,0%,70%),
+            0 4px hsl(0,0%,65%),   
+            0 5px 10px gray;
+           
+}
+#videointro{
+	float:left;
+	margin-left: 50px;
+	margin-right: 20px;
+	margin-top: -25px;
+}
+#video{
+  margin-left: 250px;
+  margin-top: -20px;
+  
+}
+@keyframes ants { to { background-position: 100% 100% } }
+#envolope{/*padding: .3em;*/
+	margin-top:20px;
+	padding-top: -30px;
+	border: .3em solid transparent;
+	background: linear-gradient(white, white) padding-box,
+	            repeating-linear-gradient(
+	            	-45deg, gray 0, gray 12.5%, 
+	            	        transparent 0, transparent 25%, 
+	                        #58a 0, #58a 37.5%,
+	                        transparent 0, transparent 50%)
+	                         0 / 6em 6em;
+	animation: ants 20s linear infinite;}
+#musicstaff/*照片的格式*/
+{
+	
+	
+float:left;
+margin:100px auto auto 70px;border-radius: 50%;
+	
+
+}
+img{
+   padding: .5em;
+   
+   border:.1em dashed grey;}
+#masth{
+  word-spacing:10px;/*yang 间隔*/
+	font-size: 2.5em;
+	font-family:Impact ;
+	padding: 0;
+	text-shadow:0 1px hsl(0,0%,85%),
+            0 2px hsl(0,0%,75%),
+            0 3px hsl(0,0%,70%),
+            0 4px hsl(0,0%,65%),   
+            0 5px 10px gray;
+	
+}
+#showbutime{
+	color: #58a;
+  font-family:Verdana;
+  font-size: 20px;
+}
+#mainarticlefooter
+{font-size: 1.2em;
+  color: #58a;
+padding-top: -8px;
+margin-top:-2px;
+margin-bottom:-2px;
+padding-bottom: -8px;}
+#commentshere{
+	color: gray;
+}
+
+#numAlter{
+	font-size: 0.5em;
+	font-family: Verdana;
+}
+
+#masmenu{
+	font-size: 1.7em;
+	font-family:Verdana;
+	border-width: 0px 0px 30px 0px;
+	border-bottom:.15em solid gray;
+}
+
+.button2{
+	transform: skewX(-45deg);
+	display: inline-block;
+	
+	border: 0; 
+	background: gray;/*#58a*/
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 25px;
+	
+
+}
+.button2:hover{
+	background:#58a;
+	color: transparent;
+
+	text-shadow: 0 0 .1em white,0 0 .2em white;
+}
+.button2>div{
+	padding: 0em .4em .1em .4em;
+	transform: skewX(45deg);
+}
+#menu ul{
+padding:0em;
+font-size:.75em;
+margin:0em;}
+#menu ul li{
+display:inline;
+font-weight:bold;
+font-family:Verdana,Geneva,sans-serif;
+}
+#menu ul li a{
+/*color:#494949;*/
+padding:.5em .25em .33em .25em;
+margin-right:25px;
+text-decoration:none;
+/*border-bottom: .25em solid gray;*/
+}
+
+#masthead h1{
+	font-family: Verdana;
+font-size:2em;
+padding:0em;
+margin:0em;
+}
+
+#pageFooter{
+text-align:center;
+font-size:.65em;
+font-variant:small-caps;/*属性设置小型大写字母的字体显示文本，这意味着所有的小写字母均会被转换为大写，*/
+border-top:thin solid gray;
+
+}
+#canvas4{
+		background-color: white;
+		border:3px #58a dashed;
+	}
+#mendcanvas{
+		background-color: white;
+		border:3px #58a dashed;
+	}
+	.programs{border:3px #58a dashed;
+		margin-left: -10px;
+	}
+	#outer{
+		float: right;
+		margin-right: 200px;
+	}
+	#program2{
+		margin-left:30px;
+	}
+	#seletor{
+		float: right;
+		width: 310px;
+		margin-right: 20px;
+		margin-left: 10px;
+	}
+#program p{
+  text-decoration: none;
+  font-size:.5em;
+}
+
+tfoot{color: #58a;}
+ h4{text-align:left;}
+
+
+
+ .td1{
+ 	width:750px;
+ }
+.td2{
+	width: 500px;
+}
+.button1{
+	padding:6px 16px;
+	border:1px solid #A9A9A9;
+	background: #A9A9A9 linear-gradient(#DCDCDC,#A9A9A9);
+	border-radius: 4px;
+	box-shadow: 0 -1px 1px #335166;
+	font-size: 15px;
+	color: white;
+	line-height: 20px;
+}
+#comments{
+	width: 500px;
+	height: 100px;
+}
+#wall{
+	border-style: dashed;
+	border-color: gray;
+}
+#walloutput{
+	margin-left:20px;
+	width: 480px;
+	height: 100px;
+	float: right;
+}
+#numAlter{
+	width: 500px;
+	height: 100px;
+	float: right;
+
+
+}
+#shelf{
+	width: 50px;
+	height: 20px;
+	background-color: rgba(160,160,160,0.5);/*透明度设置 只能用0.X*/
+	/* 图片透明度的设置方法 filter:alpha(opacity=60);*/
+	border-style: dashed;
+	border-width: thin;
+	}
+	#shelf1{
+		background-color:white;
+		width: 60px;
+	height: 30px;
+	}
+	#satisfied1{
+	    background-color: pink;
+	   float: right;
+	    }
+		#satisfied2{
+		background-color: #58a;
+		float: right;
+	        }
+			#satisfied3{background-color: gray;
+				float: right;
+				}
+				
+	            #dragg{
+	            	width: 500px;
+	            	height: 130px;
+	            	border-color: black;
+	            	margin-top: 10px;
+	            }
+	            .satisfied{
+	            	width: 60px;
+	            height: 36px;
+	            
+
+	            border-style: dashed;
+	            border-width: thin;}
+	            }
+	            #commentss{
+	            	color: pink;
+	            	font-weight:2.5em;
+	            }
+	            #address{
+	            	float: left;
+	            	margin-right: 30px
+	            }
+	            #mylocation{
+	            	float: left;
+	            	width: 450px;
+	            	height: 300px;
+	            }
+	            #shelff{
+	            	text-align:center;
+	width: 1000px;
+	height: 50px;
+	background-color: #eee;/*透明度设置 只能用0.X*/
+	/* 图片透明度的设置方法 filter:alpha(opacity=60);*/
+	
+	border-radius: 10px 10px 10px 10px;
+	}
+	.skills{
+		
+		border-color: gray;
+		width: 80px;
+	height: 50px;
+	float: right;
+	margin-right: 10px;
+
+	}
+	.skillimg{border-radius: 10px 10px 10px 10px;
+		padding:0;
+   
+   border:none;}
+	#satisfied11{
+		width: 100px;
+	    height: 65px;
+	    background-color: #58a;
+	   opacity: 0.6;
+	    margin-top:-40px;
+	    margin-left:450px;
+	    border-radius: 10px 10px 10px 10px;
+	    padding-top: 10px;
+
+		}
+		#commentsss{text-align: center;}
